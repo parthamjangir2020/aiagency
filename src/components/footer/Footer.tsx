@@ -200,7 +200,7 @@ const Footer: React.FC = () => {
               <img src={callIcon} alt="call" />
             </a>
             <a className="contact-method" href="tel:+112304528597">
-              +(1)1230 452 8597
+              +91-7827408866
             </a>
           </div>
         </div>
