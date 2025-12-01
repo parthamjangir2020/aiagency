@@ -20,7 +20,7 @@ const NewsletterBox: React.FC = () => {
       </div>
 
       <div className="xb-item--item-input_field pos-rel">
-        <input type="email" placeholder="aivora@example.com" />
+        <input type="email" placeholder="AiRakebig@example.com" />
         <button type="submit">Subscribe</button>
       </div>
     </div>

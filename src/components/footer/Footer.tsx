@@ -120,9 +120,9 @@ const Footer: React.FC = () => {
       <div className="xb-footer-wrap">
         {/* Footer Heading */}
         <div className="xb-footer-heading wow zoomIn" data-wow-delay="0ms" data-wow-duration="600ms">
-          <h1 className="title">Aivora</h1>
-          <a className="mail" href="mailto:aivora@domain.com">
-            <img src={emailIcon} alt="email" /> aivora@domain.com
+          <h1 className="title">AiRakebig</h1>
+          <a className="mail" href="mailto:AiRakebig@domain.com">
+            <img src={emailIcon} alt="email" /> AiRakebig@domain.com
           </a>
         </div>
 
@@ -191,7 +191,7 @@ const Footer: React.FC = () => {
 
           <div className="contact-item copyright-item">
             <p>
-              Copyright © 2025 <Link to="/">Aivora</Link>, All rights reserved.
+              Copyright © 2025 <Link to="/">AiRakebig</Link>, All rights reserved.
             </p>
           </div>
 

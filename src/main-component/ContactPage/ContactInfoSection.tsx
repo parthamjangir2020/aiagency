@@ -15,19 +15,19 @@ const contactData = [
   {
     location: "San Francisco, USA",
     phone: "+(1) 561 555 7689",
-    email: "aivora@usadomain.com",
+    email: "AiRakebig@usadomain.com",
     img: img01,
   },
   {
     location: "London, United Kingdom",
     phone: "+1 (416) 123-4567",
-    email: "aivora@ukdomain.com",
+    email: "AiRakebig@ukdomain.com",
     img: img02,
   },
   {
     location: "Toronto, Canada",
     phone: "+1 (416) 123-4567",
-    email: "aivora@cadomain.com",
+    email: "AiRakebig@cadomain.com",
     img: img03,
   },
 ];

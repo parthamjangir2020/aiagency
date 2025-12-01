@@ -243,7 +243,7 @@ const Footer: React.FC = () => {
                         {/* === Copyright === */}
                         <div className="xb-copyright ul_li_between">
                             <p>
-                                Copyright © 2025 <Link to="/ai-chatbot">Aivora</Link>, All rights reserved.
+                                Copyright © 2025 <Link to="/ai-chatbot">AiRakebig</Link>, All rights reserved.
                             </p>
                             <ul className="ai-footer-links ul_li">
                                 <li><Link to="/contact">Terms & Conditions</Link></li>
@@ -257,7 +257,7 @@ const Footer: React.FC = () => {
             {/* === Footer Title === */}
             <div className="xb-footer-bottom-title wow fadeInUp" data-wow-duration="600ms">
                 <h2 className="title">
-                    Aivora AI <span>chatbot</span>
+                    AiRakebig AI <span>chatbot</span>
                     <img src={diamondIcon} alt="icon" />
                 </h2>
             </div>

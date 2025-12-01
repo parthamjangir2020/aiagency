@@ -81,7 +81,7 @@ const HeaderThree: React.FC = () => {
             {/* === Logo === */}
             <div className="xb-header-logo">
               <Link to="/" className="logo1">
-                <img src={logo} alt="Aivora Logo" />
+                <img src={logo} alt="AiRakebig Logo" />
               </Link>
             </div>
 
@@ -265,7 +265,7 @@ const HeaderThree: React.FC = () => {
 
                 <div className="xb-logo-mobile xb-hide-xl">
                   <Link to="/" rel="home">
-                    <img src={logo} alt="Aivora Logo" />
+                    <img src={logo} alt="AiRakebig Logo" />
                   </Link>
                 </div>
 
