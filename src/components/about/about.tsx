@@ -26,7 +26,7 @@ const AboutSection: React.FC = () => {
     <section className="about pt-140">
       <div className="container">
         <div className="sec-title about-sec-title mb-75">
-          <span className="sub-title"> T H E M E L O C K . C O M  Who We are?</span>
+          <span className="sub-title"> Who We are?</span>
           <h2 className="title">
             We helping
             <span>
