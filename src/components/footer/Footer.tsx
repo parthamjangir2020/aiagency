@@ -186,7 +186,7 @@ const Footer: React.FC = () => {
         <div className="xb-footer-bottom">
           <div className="contact-item">
             <img src={locationIcon} alt="location" />
-            <span className="contact-method">4517 Washington, USA</span>
+            <span className="contact-method">Bhadra Rajasthan India</span>
           </div>
 
           <div className="contact-item copyright-item">

@@ -16,6 +16,25 @@ import "./css/imageRevealHover.css";
 import "./css/custom-fonts.css";
 import "./css/main.css";
 
+if (process.env.NODE_ENV === "development") {
+  const hasExt = (s: string | undefined) => !!s && s.includes("chrome-extension://");
+  window.addEventListener("error", (e) => {
+    const ev = e as ErrorEvent;
+    const src = ev.filename || (ev.error && ev.error.stack) || "";
+    if (hasExt(src)) {
+      e.preventDefault();
+    }
+  });
+  window.addEventListener("unhandledrejection", (e) => {
+    const ev = e as PromiseRejectionEvent;
+    const reason: any = ev.reason;
+    const stack = (reason && reason.stack) || "";
+    if (hasExt(stack)) {
+      e.preventDefault();
+    }
+  });
+}
+
 const rootElement = document.getElementById("root") as HTMLElement;
 const root = ReactDOM.createRoot(rootElement);
 
